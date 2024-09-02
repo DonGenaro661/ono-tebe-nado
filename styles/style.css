@@ -1,1 +1,227 @@
-/* место для вашего кода */
+.content {
+  box-sizing: border-box;
+  width: 1100px;
+  height: 3028px;
+  display: flex;
+  flex-direction: column;
+  /*.justify-content:*/
+}
+
+.header {
+  width: 1052px;
+  height: 105px;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cover {
+  width: 1100px;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cover-title {
+  width: 1000px;
+  height: 355px;
+  font-size: 100px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+}
+
+.subline-and-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.subline {
+  width: 637px;
+  height: 28px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.cover-button {
+  width: 256px;
+  height: 51px;
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-style: solid;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.lots {
+  width: 1052px;
+  height: 692px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lots-cards {
+  display: flex;
+  column-gap: 25px;
+}
+
+.lots-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  padding-left: 40px;
+}
+
+.lot {
+  width: 334px;
+  height: 563px;
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
+.lot-1 {
+  background-image: url(../images/card-lot-01.jpg);
+}
+
+.lot-2 {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.lot-3 {
+  background-image: url(../images/card-lot-03.jpg);
+}
+
+.lot-upp {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.lot-down {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.more {
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 40px;
+  text-decoration: underline;
+}
+
+.about {
+  width: 1052px;
+  height: 595px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.logo-header img {
+  height: 100%;
+}
+
+.logo-about-auction {
+  width: 148px;
+  height: 114px;
+}
+
+.logo-about {
+  width: 240px;
+  height: 240px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-column {
+  width: 693px;
+  height: 449px;
+}
+
+.description-block {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer {
+  width: 1000px;
+  height: 98px;
+  display: flex;
+  font-weight: 400;
+  font-size: 18px;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socials {
+  width: 240px;
+  height: 48px;
+  display: flex;
+  column-gap: 48px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.main-li {
+  list-style-type: none;
+}
+
+/*.menu {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.13px; 
+}*/
+
+.header-navigator {
+  width: 391.48px;
+  height: 105px;
+  list-style-type: circle;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.contacts {
+  width: 240.52px;
+  height: 98px;
+  line-height: 24.3px;
+}
+
+.our-address {
+  font-style: normal;
+}

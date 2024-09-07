@@ -169,7 +169,6 @@
 
 .card-link {
   text-decoration: none;
-  text-decoration: none;
 }
 
 .card {
@@ -316,12 +315,6 @@
 .footer__menu-list-item {
   list-style-type: none;
   align-self: center;
-}
-
-.footer__menu-link {
-}
-
-.footer__menu-link_active {
 }
 
 .footer__social-list {

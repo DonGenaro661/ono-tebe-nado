@@ -38,14 +38,6 @@
   height: 100%;
 }
 
-.address {
-  width: 240.52px;
-  min-height: 98px;
-  font-style: normal;
-  display: flex;
-  line-height: 24px;
-}
-
 .header__address {
   display: flex;
   margin-right: 26px;
@@ -301,6 +293,14 @@
   margin: auto;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.address {
+  width: 240.52px;
+  min-height: 98px;
+  font-style: normal;
+  display: flex;
+  line-height: 24px;
 }
 
 .footer__menu {

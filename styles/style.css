@@ -1,6 +1,5 @@
 .header {
   width: 1052px;
-  min-height: 105px;
   margin: 92px 24px 96px 24px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -38,6 +37,14 @@
   height: 100%;
 }
 
+.address {
+  width: 240.52px;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+}
+
 .header__address {
   display: flex;
   margin-right: 26px;
@@ -68,14 +75,15 @@
   opacity: 0.6;
   z-index: 0;
   position: absolute;
+  inset: 0;
 }
 
 .cover__title {
   width: 1000px;
-  min-height: 355px;
   margin-top: 165px;
   margin-bottom: 136px;
   margin-left: 50px;
+  margin-right: 50px;
   font-size: 100px;
   font-weight: 700;
   color: #ffffff;
@@ -118,11 +126,11 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
+  /*margin-bottom: 51px;*/
 }
 
 .cover__description-text {
   width: 637px;
-  min-height: 28px;
   margin-left: 78px;
   font-size: 22px;
   font-weight: 400;
@@ -133,6 +141,7 @@
 .bet-button {
   width: 256px;
   min-height: 51px;
+  margin-right: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -166,6 +175,7 @@
 
 .lots__card-list-item {
   flex-grow: 1;
+  list-style-type: none;
 }
 
 .lots__heading {
@@ -231,7 +241,6 @@
 
 .about {
   width: 1052px;
-  min-height: 595px;
   margin-top: 146px;
   margin-left: 24px;
   margin-right: 24px;
@@ -260,7 +269,6 @@
 
 .about__column {
   width: 693px;
-  min-height: 449px;
   margin-top: 133px;
 }
 
@@ -273,7 +281,6 @@
 
 .about__text {
   width: 693px;
-  min-height: 312px;
   margin-top: 100px;
   font-weight: 400;
   font-size: 20px;
@@ -281,31 +288,22 @@
   letter-spacing: 0.005em;
   display: flex;
   flex-direction: column;
+  gap: 24px;
   justify-content: space-between;
 }
 
 .footer {
   width: 1000px;
-  min-height: 98px;
   display: flex;
   font-weight: 400;
   font-size: 18px;
-  margin: auto;
+  margin: 0px auto 91px;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.address {
-  width: 240.52px;
-  min-height: 98px;
-  font-style: normal;
-  display: flex;
-  line-height: 24px;
-}
-
 .footer__menu {
   width: 149px;
-  min-height: 64px;
   display: flex;
   align-items: start;
 }
